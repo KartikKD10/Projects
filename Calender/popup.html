@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calendar</title>
+    <script src="jquery.min.js"></script>
+	<script src="browser_action.js"></script>
+    <style>
+	 body {
+	background-color:yellow;
+	width:200px;
+	color:black;
+	
+	}
+	h1 {
+	display:block;
+	margin: 0 auto;
+	text-align:center
+	}
+	#quick-add-calendar-list, textarea {
+    width: 100%;
+    font-size: 16px;
+    margin: 4px 0;
+	}
+</style>
+  </head>
+  <body>
+    <h1>Calender</h1>
+    <p id="instruct">Quick add an event</p>
+<select id="quick-add-calendar-list"></select><br><br>
+	<textarea rows="2" id="quick-add-event-title" placeholder="Breakfast at 7am tomorrow"></textarea>
+    <button id="quick-add-button">Add event</button>
+  </body>
+</html>
