@@ -10,7 +10,7 @@
   "author": "Brad Traversy",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.6.1",
+    "async": "^2.6.4",
     "bcryptjs": "*",
     "body-parser": "*",
     "connect-flash": "*",
